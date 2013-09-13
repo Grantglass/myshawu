@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/bnorberg/lentil.git
-  revision: c74b6a383db016ae97894d5920e634f026c46f4f
+  revision: f3d32ca4f16f750523051ee42f877362b9486211
   specs:
     lentil (0.1.2)
       activeadmin (= 0.5.1)
@@ -107,8 +107,7 @@ GEM
     ethon (0.6.1)
       ffi (>= 1.3.0)
       mime-types (~> 1.18)
-    execjs (1.4.0)
-      multi_json (~> 1.0)
+    execjs (2.0.1)
     fancybox2-rails (0.2.4)
       railties (>= 3.1.0)
     faraday (0.8.8)
@@ -126,7 +125,7 @@ GEM
       activesupport (>= 3.2, < 5)
     hashie (2.0.5)
     hike (1.2.3)
-    i18n (0.6.4)
+    i18n (0.6.5)
     inherited_resources (1.4.1)
       has_scope (~> 0.6.0.rc)
       responders (~> 1.0.0.rc)
@@ -144,7 +143,7 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     lazing (0.1.1)
-    libv8 (3.11.8.17)
+    libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -153,9 +152,9 @@ GEM
       activerecord (~> 3.1)
       activesupport (~> 3.1)
       polyamorous (~> 0.5.0)
-    mime-types (1.23)
+    mime-types (1.25)
     modernizr-rails (2.6.2.3)
-    multi_json (1.7.9)
+    multi_json (1.8.0)
     multipart-post (1.2.0)
     orm_adapter (0.4.0)
     pg (0.16.0)
@@ -208,20 +207,20 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     state_machine (1.2.0)
-    therubyracer (0.11.4)
-      libv8 (~> 3.11.8.12)
+    therubyracer (0.12.0)
+      libv8 (~> 3.16.14.0)
       ref
     thor (0.18.1)
     thread_safe (0.1.3)
       atomic
     tilt (1.4.1)
-    treetop (1.4.14)
+    treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
     typhoeus (0.6.5)
       ethon (~> 0.6.1)
     tzinfo (0.3.37)
-    uglifier (2.1.2)
+    uglifier (2.2.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
     warden (1.2.3)
