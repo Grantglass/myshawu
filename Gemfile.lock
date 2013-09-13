@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/bnorberg/lentil.git
-  revision: f3d32ca4f16f750523051ee42f877362b9486211
+  revision: c868e47a94dba3967de6aad81849b908ded02d72
   specs:
     lentil (0.1.2)
       activeadmin (= 0.5.1)
