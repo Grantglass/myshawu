@@ -6,6 +6,10 @@ $lentil_blue: #990012;
 
 body {
     background: image-url("background.jpg");
+ 	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .navbar-inner {
     background: #282828;
