@@ -61,5 +61,7 @@ module MyShawU
     
     # get precompilation working on heroku:
     config.assets.initialize_on_precompile = true
+    
+    config.serve_static_assets = false
   end
 end
