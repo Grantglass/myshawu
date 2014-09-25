@@ -5,4 +5,4 @@ Instagram.configure do |config|
   config.client_secret = ENV['INSTAGRAM_CLIENT_SECRET']
 end
 
-CALLBACK_URL = "http://myshawu-staging.herokuapp.com/auth/google_oauth2/callback
+CALLBACK_URL = "http://myshawu-staging.herokuapp.com/auth/google_oauth2/callback"
