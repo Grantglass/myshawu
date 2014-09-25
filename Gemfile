@@ -8,7 +8,6 @@ gem 'rails', "3.2.19"
 gem 'pg'
 gem 'lentil', :git => "git://github.com/bnorberg/lentil.git"
 gem 'therubyracer'
-gem "figaro"
 
 # Gems used only for assets and not required
 # in production environments by default.
