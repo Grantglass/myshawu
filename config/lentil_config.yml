@@ -1,11 +1,11 @@
 defaults: &defaults
 #production id and secret  
-  instagram_client_id: <%= ENV['INSTAGRAM_CLIENT_ID'] %>
-  instagram_client_secret: <%= ENV['INSTAGRAM_CLIENT_SECRET'] %>
+  instagram_client_id: "1580efb8b95f4aa6a23ef0db358deea4"
+  instagram_client_secret: "fb84ea72203847fcb47bcfbb22491978"
   instagram_access_token: "YOUR_ACCESS_TOKEN_FROM_INSTAGRAM_OAUTH"
   default_image_search_tag: "myshawu"
   # If populated, the next three fields will appear at the end of page titles as "application_name - division_name - organization_name"
-  application_name: "#myshawu"
+  application_name: "#shaw150"
   division_name: "Department of Humanities"
   division_url: "http://www.shawu.edu/Academics/Department_of_Humanities.aspx"
   organization_name: "Shaw University"
