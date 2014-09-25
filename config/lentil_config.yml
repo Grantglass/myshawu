@@ -1,0 +1,31 @@
+defaults: &defaults
+  instagram_access_token: "YOUR_ACCESS_TOKEN_FROM_INSTAGRAM_OAUTH"
+  default_image_search_tag: "myshawu"
+  # If populated, the next three fields will appear at the end of page titles as "application_name - division_name - organization_name"
+  application_name: "#myshawu"
+  division_name: "Department of Humanities"
+  division_url: "http://www.shawu.edu/Academics/Department_of_Humanities.aspx"
+  organization_name: "Shaw University"
+  meta_description: "Check out this image of Shaw University taken during the university's 150th year"
+  base_image_file_dir: "tmp/harvested"
+  donor_agreement_text: "The text for your donor agreement that will be submitted as a comment"
+  contact_email: "ddighton@shawu.edu"
+  feed_description: "Shaw 150 pictures"
+  # Uncomment to enable Google Analytics tracking
+  # google_analytics_tracker: "UA-XXXXXXXX-XX"
+
+development:
+  <<: *defaults
+  # Add or override config options here
+
+test:
+  <<: *defaults
+  # Add or override config options here
+
+staging:
+  <<: *defaults
+  # Add or override config options here
+
+production:
+  <<: *defaults
+  # Add or override config options here

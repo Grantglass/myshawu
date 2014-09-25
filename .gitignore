@@ -15,4 +15,3 @@
 /tmp
 config/database.yml
 config/local_env.rb
-config/lentil_config.yml
