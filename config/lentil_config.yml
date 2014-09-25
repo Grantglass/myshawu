@@ -1,4 +1,10 @@
 defaults: &defaults
+#development id and secret    
+  #instagram_client_id: "7ecdd05eb913417e8a75c1f699b22441"
+  #instagram_client_secret: "76006b3913944c53b23979a29b467e0d"
+#production id and secret  
+  instagram_client_id: <%= ENV['INSTAGRAM_CLIENT_ID'] %>
+  instagram_client_secret: <%= ENV['INSTAGRAM_CLIENT_SECRET'] %>
   instagram_access_token: "YOUR_ACCESS_TOKEN_FROM_INSTAGRAM_OAUTH"
   default_image_search_tag: "myshawu"
   # If populated, the next three fields will appear at the end of page titles as "application_name - division_name - organization_name"
