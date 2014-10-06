@@ -8,7 +8,7 @@ if defined?(Bundler)
   # If you want your assets lazily compiled in production, use this line
   # Bundler.require(:default, :assets, Rails.env)
 end
-APP_CONFIG = YAML.load_file("config/lentil_config.yml")
+
 module MyShawU
   class Application < Rails::Application
 

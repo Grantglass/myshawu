@@ -3,7 +3,7 @@ defaults: &defaults
   instagram_client_id: "8b6e101c123d49f7ae9eb49152e4e7f4"
   instagram_client_secret: "83460f7c224648f5b99b9471d17749d0"
   instagram_access_token: "1521113753.8b6e101.d13ffae8e3e44d58b2b202f69f097b5c"
-  default_image_search_tag: "myshawu"
+  default_image_search_tag: "shaw150"
   # If populated, the next three fields will appear at the end of page titles as "application_name - division_name - organization_name"
   application_name: "#shaw150"
   division_name: "Department of Humanities"
