@@ -2,15 +2,13 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-APP_CONFIG = YAML.load_file("#{RAILS_ROOT}/config/lentil_config.yml")[RAILS_ENV]
-
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
   Bundler.require(*Rails.groups(:assets => %w(development test)))
   # If you want your assets lazily compiled in production, use this line
   # Bundler.require(:default, :assets, Rails.env)
 end
-
+APP_CONFIG = YAML.load_file("config/lentil_config.yml")
 module MyShawU
   class Application < Rails::Application
 
