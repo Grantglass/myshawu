@@ -2,7 +2,7 @@ defaults: &defaults
 #production id and secret  
   instagram_client_id: "1580efb8b95f4aa6a23ef0db358deea4"
   instagram_client_secret: "fb84ea72203847fcb47bcfbb22491978"
-  instagram_access_token: "YOUR_ACCESS_TOKEN_FROM_INSTAGRAM_OAUTH"
+  instagram_access_token: "505313713.1580efb.83406ba2568d4dd9bc20bce59bfaff4c"
   default_image_search_tag: "myshawu"
   # If populated, the next three fields will appear at the end of page titles as "application_name - division_name - organization_name"
   application_name: "#shaw150"
@@ -11,7 +11,7 @@ defaults: &defaults
   organization_name: "Shaw University"
   meta_description: "Check out this image of Shaw University taken during the university's 150th year"
   base_image_file_dir: "tmp/harvested"
-  donor_agreement_text: "The text for your donor agreement that will be submitted as a comment"
+  donor_agreement_text: "Shaw University wants your photo! In celebration of the 150th year, Shaw University wants archive all photos taken with the shaw150 instagram tag. By consetting, you allow Shaw University to preserve and reproduce your photo. If you would like to opt out, please reply to this comment with 'opt out'."
   contact_email: "ddighton@shawu.edu"
   feed_description: "Shaw 150 pictures"
   # Uncomment to enable Google Analytics tracking

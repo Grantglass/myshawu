@@ -13,6 +13,10 @@ module MyShawU
   class Application < Rails::Application
 
     # Inserted by lentil
+    # End of lentil changes
+
+
+    # Inserted by lentil
     I18n.enforce_available_locales = true
     config.assets.precompile += %w( lentil/iframe.js lentil/iframe.css addanimatedimages.js animatedimages/css/style.css )
     # End of lentil changes
