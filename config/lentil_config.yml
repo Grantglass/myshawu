@@ -15,7 +15,7 @@ defaults: &defaults
   contact_email: "ddighton@shawu.edu"
   feed_description: "Shaw 150 pictures"
   # Uncomment to enable Google Analytics tracking
-  # google_analytics_tracker: "UA-XXXXXXXX-XX"
+  google_analytics_tracker: "UA-55496633-1"
 
 development:
   <<: *defaults
