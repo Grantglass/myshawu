@@ -5,6 +5,7 @@ gem 'rails', "3.2.21"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'rails_12factor', group: :production
 gem 'pg'
 gem 'lentil', :git => "git://github.com/bnorberg/lentil.git"
 gem 'therubyracer'
