@@ -3,8 +3,6 @@ require 'capistrano/setup'
 
 # Include default deployment tasks
 require 'capistrano/deploy'
-require 'capistrano/bundler'
-require 'capistrano/rails/migrations'
 
 
 # Include whenever for crons
