@@ -9,6 +9,7 @@ gem 'rails_12factor', group: :production
 gem 'pg'
 gem 'lentil', :git => "git://github.com/bnorberg/lentil.git"
 gem 'therubyracer'
+gem 'whenever', :require => false
 
 # Gems used only for assets and not required
 # in production environments by default.
