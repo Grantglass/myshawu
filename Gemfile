@@ -38,7 +38,7 @@ gem 'jquery-rails', '= 2.3.0'
   gem 'capistrano'
   gem 'capistrano-bundler' # for capistrano/bundler
   gem 'capistrano-rails' # for capistrano/rails/* 
-  gem 'capistrano-rvm'
+  gem 'rvm1-capistrano3', require: false
   gem 'capistrano-bundler'
 # To use debugger
 # gem 'debugger'
