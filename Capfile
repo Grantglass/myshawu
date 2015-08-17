@@ -4,8 +4,9 @@ require 'capistrano/setup'
 # Include default deployment tasks
 require 'capistrano/deploy'
 
-
 # Include whenever for crons
+require 'rvm/capistrano'
+require 'bundler/capistrano'
 require "whenever/capistrano"
 # Include tasks from other gems included in your Gemfile
 #
