@@ -1,10 +1,8 @@
 # Load DSL and set up stages
 require 'capistrano/setup'
-require 'capistrano/deploy'
 
-require 'capistrano/rails'
-require 'capistrano/bundler'
-require 'capistrano/rvm'
+# Include default deployment tasks
+require 'capistrano/deploy'
 
 # Include whenever for crons
 #require "whenever/capistrano"
