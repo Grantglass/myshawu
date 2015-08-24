@@ -289,4 +289,6 @@ DEPENDENCIES
   therubyracer
   uglifier (>= 1.0.3)
   unicorn
-  whenever
+
+BUNDLED WITH
+   1.10.6

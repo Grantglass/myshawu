@@ -1,13 +1,13 @@
 # Load DSL and set up stages
 require 'capistrano/setup'
-
-# Include default deployment tasks
 require 'capistrano/deploy'
 
+require 'capistrano/rails'
+require 'capistrano/bundler'
+require 'capistrano/rvm'
+
 # Include whenever for crons
-require 'rvm/capistrano'
-require 'bundler/capistrano'
-require "whenever/capistrano"
+#require "whenever/capistrano"
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
