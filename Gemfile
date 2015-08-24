@@ -9,6 +9,7 @@ gem 'rails_12factor', group: :production
 gem 'pg'
 gem 'lentil', :git => "git://github.com/bnorberg/lentil.git"
 gem 'therubyracer'
+gem 'whenever', require: false
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -34,10 +35,11 @@ gem 'jquery-rails', '= 2.3.0'
   gem 'unicorn'
 
 # Deploy with Capistrano
-  gem 'capistrano', '~> 3.1.0'
-  gem 'capistrano-rails', '~> 1.1'
-  gem 'capistrano-rvm'
-  gem 'capistrano-bundler'
-  gem 'whenever', :require => false
+  group :production do
+    gem 'capistrano',         require: false
+    gem 'capistrano-rvm',     require: false
+    gem 'capistrano-rails',   require: false
+    gem 'capistrano-bundler', require: false
+end
 # To use debugger
 # gem 'debugger'
