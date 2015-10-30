@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/NCSU-Libraries/lentil.git
-  revision: fd0718256938bd7bf5d34c62baaf46c0430497d4
+  remote: git://github.com/bnorberg/lentil.git
+  revision: 4ae836ad3e3ab7b2ed51fc73ab3bfde24a9adaf1
   specs:
     lentil (0.7.1)
       activeadmin (~> 0.6.3)

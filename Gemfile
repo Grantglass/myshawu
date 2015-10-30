@@ -7,7 +7,7 @@ gem 'rails', "3.2.22"
 
 gem 'rails_12factor', group: :production
 gem 'pg'
-gem 'lentil', :git => "git://github.com/NCSU-Libraries/lentil.git" #git://github.com/bnorberg/lentil.git"
+gem 'lentil', :git => "git://github.com/bnorberg/lentil.git"
 gem 'therubyracer'
 gem 'whenever', require: false
 
