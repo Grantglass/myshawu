@@ -1,4 +1,4 @@
-![Myshawu homepage, May 2015](assets/myshawu_home.jpg?raw=true "Myshawu Homepage, May 2015")
+![Myshawu homepage, May 2014](assets/myshawu_home.jpg?raw=true "Myshawu Homepage, May 2014")
 
 \#myshawu was a first-year writing based student project I created and managed at Shaw University. These website contained over 1600-image of campus history project that is no longer supported due to technological and institutional changes. From 2013-2015, I created #myshawu as a prototype for the teaching of writing through student-generated social media images that archive campus history. 
 
